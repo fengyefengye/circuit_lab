@@ -1,0 +1,3 @@
+[submodule "MiniMIPS32"]
+	path = MiniMIPS32
+	url = git@github.com:geniusLcy/MiniMIPS32.git
