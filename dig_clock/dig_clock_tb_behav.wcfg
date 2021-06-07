@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dig_clock_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dig_clock_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2012148000fs"></ZoomStartTime>
+      <ZoomEndTime time="2738148001fs"></ZoomEndTime>
+      <Cursor1Time time="1245000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/dig_clock_tb/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dig_clock_tb/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dig_clock_tb/i_start" type="logic">
+      <obj_property name="ElementShortName">i_start</obj_property>
+      <obj_property name="ObjectShortName">i_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dig_clock_tb/DUT/U1/edge_start" type="logic">
+      <obj_property name="ElementShortName">edge_start</obj_property>
+      <obj_property name="ObjectShortName">edge_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dig_clock_tb/DUT/U1/start_flag" type="logic">
+      <obj_property name="ElementShortName">start_flag</obj_property>
+      <obj_property name="ObjectShortName">start_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dig_clock_tb/DUT/U2/r_cnt_1s" type="array">
+      <obj_property name="ElementShortName">r_cnt_1s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_1s[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dig_clock_tb/DUT/U2/r_cnt_1m" type="array">
+      <obj_property name="ElementShortName">r_cnt_1m[5:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_1m[5:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dig_clock_tb/DUT/U2/r_cnt_1h" type="array">
+      <obj_property name="ElementShortName">r_cnt_1h[5:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_1h[5:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dig_clock_tb/DUT/U2/sec" type="array">
+      <obj_property name="ElementShortName">sec[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sec[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dig_clock_tb/DUT/U2/min" type="array">
+      <obj_property name="ElementShortName">min[7:0]</obj_property>
+      <obj_property name="ObjectShortName">min[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dig_clock_tb/DUT/U4/bcd" type="array">
+      <obj_property name="ElementShortName">bcd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bcd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dig_clock_tb/DUT/U3/bcd" type="array">
+      <obj_property name="ElementShortName">bcd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bcd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dig_clock_tb/an" type="array">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dig_clock_tb/a_to_g" type="array">
+      <obj_property name="ElementShortName">a_to_g[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a_to_g[7:0]</obj_property>
+   </wvobject>
+</wave_config>

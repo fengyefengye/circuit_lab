@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "D:/Xilinx/Vivado/2017.3/data/xilinx_vip/include" \
+"../../../../ALU_4bits.srcs/sources_1/imports/DLC/alu.sv" \
+"../../../../ALU_4bits.srcs/sources_1/imports/DLC/fulladder.sv" \
+"../../../../ALU_4bits.srcs/sources_1/imports/DLC/rca.sv" \
+"../../../../ALU_4bits.srcs/sim_1/imports/DLC/ALU_4bits_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

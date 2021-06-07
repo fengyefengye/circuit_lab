@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../led_flow.srcs/sources_1/new/wf_led.sv" \
+"../../../../led_flow.srcs/sim_1/new/wf_led_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
